@@ -1,21 +1,21 @@
 ## Sparta Sinatra Models Homework
 
-##### Description: I created a drinks application using Ruby with Sinatra. It lists three popular drinks with information which you can edit and you can also add new drinks to the list.
+##### Description: I created a people application using Ruby with Sinatra and models. It lists names that are from a database from Mockaroo, and the user can edit, delete and add to it.
 **Creator: Ryan Lecoutre**
 
-**Technology Used - Atom, Ruby, Sinatra**
+**Technology Used - Atom, Ruby, Sinatra, Postgres**
 
 ## Challenges:
 
-1. Figuring out the correct way to set it up using Sinatra - a steep learning curve!
+1. Figuring out the correct way to set up a database.
 
 2. Ensuring that there were no errors.
 
 ## Takeaways:
 
-1. Increased understanding of Sinatra.
+1. Increased understanding of databases and SQL.
 
-2. Became more aware of how to use the MVC approach.
+2. Increased my ability to troubleshoot and locate bugs.
 
 ## Instructions on How to Download:
 1. Enter the GitHub repo.
