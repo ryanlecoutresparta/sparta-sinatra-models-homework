@@ -1,0 +1,28 @@
+<form style="width:20%;margin:auto" action="/people/<%= @person.id %>" method="POST">
+  <div class="form-group">
+    <label for="drinkName">First Name</label>
+    <input style="text-align:center" type="text" class="form-control" placeholder="First Name" name="first_name" value="<%= @person.first_name %>">
+  </div>
+  <div class="form-group">
+    <label for="yearCreated">Last Name</label>
+    <input style="text-align:center" type="text" class="form-control" placeholder="Last Name" name="last_name" value="<%= @person.last_name %>">
+  </div>
+  <div class="form-group">
+    <label for="color">Email</label>
+    <input style="text-align:center" type="text" class="form-control" placeholder="Email" name="email" value="<%= @person.email %>">
+  </div>
+  <div class="form-group">
+    <label for="color">Gender</label>
+    <input style="text-align:center" type="text" class="form-control" placeholder="Gender" name="gender" value="<%= @person.gender %>">
+  </div>
+  <div class="form-group">
+    <label for="color">IP Address</label>
+    <input style="text-align:center" type="text" class="form-control" placeholder="IP Address" name="ip_address" value="<%= @person.ip_address %>">
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit Your Change!</button>
+
+  <% if (@person.id != '') %>
+    <input type="hidden" name="_method" value="PUT">
+  <% end %>
+</form>
